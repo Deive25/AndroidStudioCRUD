@@ -42,6 +42,6 @@ public class Pagamento implements Serializable {
 
     @Override
     public String toString() {
-        return "ID: " + id + " Data: " + data + " Valor: " + valor ;
+        return "\nValor: R$" + valor + "\nData: " + data + "\n";
     }
 }

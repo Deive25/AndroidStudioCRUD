@@ -44,6 +44,6 @@ public class Aluno implements Serializable {
 
     @Override
     public String toString() {
-        return nome;
+        return "CPF: " + cpf + "\nTelefone: " + telefone;
     }
 }
